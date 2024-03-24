@@ -1,0 +1,112 @@
+body, html {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-size: 0.5rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: rgb(194, 125, 255);
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+ul {
+    list-style: none;
+}
+
+.periodic-table {
+    margin: 20px;
+    width: 80vw;
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    gap: 0.1rem;
+}
+
+.element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    line-height: 0.05vh;
+}
+
+/* Colours */
+
+.reactive-non-metals {
+    background-color: hsl(213, 94%, 94%);
+    color: hsl(213, 100%, 50%);
+}
+
+.noble-gases {
+    background-color: hsl(0, 100%, 90%);
+    color: hsl(0, 100%, 65%);
+}
+
+.alkali-metals {
+    background-color: hsl(191, 100%, 93%);
+    color: hsl(192, 100%, 50%);
+}
+
+.alkaline-earth-metals {
+    background-color: hsl(2, 100%, 95%);
+    color: hsl(2, 100%, 65%);
+}
+
+.transition-metals {
+    background-color: hsl(274, 78%, 95%);
+    color: hsl(276, 100%, 60%);
+}
+
+.post-transition-metals {
+    background-color: hsl(151, 75%, 91%);
+    color: hsl(152, 100%, 24%);
+}
+
+.metalloids {
+    background-color: hsl(46, 94%, 94%);
+    color: hsl(46, 98%, 40%);
+}
+
+.unknown-properties {
+    background-color: hsl(240, 7%, 91%);
+}
+
+.actinides {
+    background-color: hsl(25, 100%, 92%);
+    color: hsl(25, 100%, 50%);
+}
+
+.lanthanides {
+    background-color: hsl(204, 100%, 94%);
+    color: hsl(203, 100%, 30%);
+}
+
+.legend ul {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 80vw;
+}
+
+.legend ul li {
+    padding: 1vh 1vw;
+}
+
+img {
+    display: none;
+}

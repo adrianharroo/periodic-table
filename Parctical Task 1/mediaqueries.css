@@ -1,0 +1,14 @@
+@media screen and (max-width: 950px) {
+    .periodic-table {
+        display: none;
+    }
+
+    .legend {
+        display: none;
+    }
+
+    img {
+        width: 100vw;
+        display: block;
+    }
+}
